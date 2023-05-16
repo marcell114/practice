@@ -15,8 +15,8 @@ int main(void) {
 
     if(diszkr >= 0.0) {
          x1 = (-b + sqrt(diszkr) / (2 * a));
-            x2 = (-b - sqrt(diszkr) / (2 * a));
-            printf("\nA gyokok:\n\n" "x1 = %g\nx2 = %g\n", x1,x2);
+         x2 = (-b - sqrt(diszkr) / (2 * a));
+         printf("\nA gyokok:\n\n" "x1 = %g\nx2 = %g\n", x1,x2);
     }else{
         printf("Az egyenletnek nincsenek" "valos gyokei.\n");
     }
